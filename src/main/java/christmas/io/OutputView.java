@@ -88,6 +88,11 @@ public class OutputView {
     }
 
     private static void printHolidayDiscount(Discount discount) {
+
+        if (discount.getDailyDiscount() == 0) {
+            return;
+        }
+
         if (discount.isHoliday()) {
             System.out.println("주말 할인: -" + discount.getDailyDiscount() + "원");
             return;

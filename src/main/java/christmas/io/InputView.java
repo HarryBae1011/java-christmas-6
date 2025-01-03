@@ -3,7 +3,6 @@ package christmas.io;
 import camp.nextstep.edu.missionutils.Console;
 import christmas.domain.Order;
 import christmas.domain.VisitingDay;
-import christmas.exception.WrongDateException;
 
 public class InputView {
 
